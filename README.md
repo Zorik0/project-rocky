@@ -6,7 +6,7 @@ Try it at [project-rocky-seven.vercel.app](https://project-rocky-seven.vercel.ap
 
 ## How it works
 
-- `app/page.tsx` is the chat screen, with an animated Rocky avatar that reacts while he's thinking and replying.
+- `app/page.tsx` is the chat screen, with an animated Rocky avatar that listens while you type and moves when he speaks.
 - `app/api/chat/route.ts` sends the conversation to DeepSeek's `deepseek-chat` model with a system prompt that keeps Rocky in character.
 - `app/manifest.ts` and `app/offline/page.tsx` make it an installable PWA.
 
